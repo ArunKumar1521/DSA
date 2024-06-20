@@ -16,10 +16,10 @@ public class selectionSort {
                 if(nums[minIndex] > nums[j]){
                     minIndex = j;
                 }
-                temp = nums[minIndex];
-                nums[minIndex] = nums[i];
-                nums[i] = temp;
             }
+            temp = nums[minIndex];
+            nums[minIndex] = nums[i];
+            nums[i] = temp;
         }
 
 
