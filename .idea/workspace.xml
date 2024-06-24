@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="LInkedList- added some more methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" afterDir="false" />
+    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="stack implementation using array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "Application.bubbleSort.executor": "Run",
-    "Application.insertionSort.executor": "Run",
-    "Application.linearSearch.executor": "Run",
-    "Application.mergeSort (1).executor": "Run",
-    "Application.mergeSort.executor": "Run",
-    "Application.quickSort.executor": "Run",
-    "Application.runner1.executor": "Run",
-    "Application.selectionSort.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.insertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mergeSort (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.mergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.quickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.runner1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.selectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.runner1">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.Runner" />
@@ -219,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719206590213</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="stack implementation using array">
+      <option name="closed" value="true" />
+      <created>1719209142708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719209142708</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +264,7 @@
     <MESSAGE value="mergeSort" />
     <MESSAGE value="LInkedList-insert and show" />
     <MESSAGE value="LInkedList- added some more methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="LInkedList- added some more methods" />
+    <MESSAGE value="stack implementation using array" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack implementation using array" />
   </component>
 </project>
