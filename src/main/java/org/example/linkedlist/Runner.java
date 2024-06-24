@@ -9,6 +9,9 @@ public class Runner {
         list.insert(3);
         list.insert(4);
         list.insert(9);
+        list.insertAtStart(1);
+        list.insertAt(0,11);
+        list.deleteAt(2);
 
         list.show();
 

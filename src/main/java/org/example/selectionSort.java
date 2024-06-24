@@ -22,8 +22,6 @@ public class selectionSort {
             nums[i] = temp;
         }
 
-
-
         System.out.println();
         for (int num : nums){
             System.out.print(num+ " ");
