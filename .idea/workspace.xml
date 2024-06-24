@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="stack implementation using array">
+    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="stack implementation using array-added methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Dstack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719209142708</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="stack implementation using array-added methods">
+      <option name="closed" value="true" />
+      <created>1719212220786</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719212220786</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +273,7 @@
     <MESSAGE value="LInkedList-insert and show" />
     <MESSAGE value="LInkedList- added some more methods" />
     <MESSAGE value="stack implementation using array" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack implementation using array" />
+    <MESSAGE value="stack implementation using array-added methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack implementation using array-added methods" />
   </component>
 </project>
