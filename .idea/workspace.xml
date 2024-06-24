@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="LInkedList-insert and show">
+    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="LInkedList- added some more methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/insertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/insertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LInkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LInkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/selectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
     "Application.mergeSort (1).executor": "Run",
     "Application.mergeSort.executor": "Run",
     "Application.quickSort.executor": "Run",
+    "Application.runner1.executor": "Run",
     "Application.selectionSort.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -60,26 +59,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.runner1">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.Runner" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="insertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.insertionSort" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runner1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.stack.runner1" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.runner1" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.mergeSort" />
         <item itemvalue="Application.mergeSort (1)" />
         <item itemvalue="Application.quickSort" />
-        <item itemvalue="Application.insertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718959346462</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LInkedList- added some more methods">
+      <option name="closed" value="true" />
+      <created>1719206590213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719206590213</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +255,7 @@
     <MESSAGE value="quickSort" />
     <MESSAGE value="mergeSort" />
     <MESSAGE value="LInkedList-insert and show" />
-    <option name="LAST_COMMIT_MESSAGE" value="LInkedList-insert and show" />
+    <MESSAGE value="LInkedList- added some more methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="LInkedList- added some more methods" />
   </component>
 </project>
