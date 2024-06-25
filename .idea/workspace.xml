@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="stack implementation using dynamic-array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Queue/runner2.java" afterDir="false" />
+    <list default="true" id="5c315269-e1ec-4849-a15f-5c957024dff5" name="Changes" comment="Refactored array">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/Runner3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/runner1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Runner.executor": "Run",
+    "Application.Runner3.executor": "Run",
     "Application.bubbleSort.executor": "Run",
     "Application.insertionSort.executor": "Run",
     "Application.linearSearch.executor": "Run",
@@ -61,7 +62,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.runner2">
+  <component name="RunManager" selected="Application.Runner3">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.Runner" />
       <module name="DSA" />
@@ -75,20 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mergeSort" />
+    <configuration name="Runner3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tree.Runner3" />
       <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.mergeSort" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Array.mergeSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner3" />
         <item itemvalue="Application.runner2" />
         <item itemvalue="Application.runner1" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.mergeSort (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719217305277</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="queue DSA">
+      <option name="closed" value="true" />
+      <created>1719296404834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719296404834</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refactored array">
+      <option name="closed" value="true" />
+      <created>1719296751832</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719296751832</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +307,8 @@
     <MESSAGE value="stack implementation using array" />
     <MESSAGE value="stack implementation using dynamic-array" />
     <MESSAGE value="stack implementation using dynamic-array" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack implementation using dynamic-array" />
+    <MESSAGE value="queue DSA" />
+    <MESSAGE value="Refactored array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored array" />
   </component>
 </project>
