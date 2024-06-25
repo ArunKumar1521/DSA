@@ -13,6 +13,7 @@ public class runner1 {
         nums.pop();
         nums.pop();
         nums.pop();
+
         nums.pop();
         nums.pop();
 
