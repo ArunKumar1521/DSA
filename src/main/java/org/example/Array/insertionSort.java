@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Array;
 
 public class insertionSort {
     public static void main(String[] args) {

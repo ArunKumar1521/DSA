@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Array;
 
 public class quickSort {
     public static void qckSort(int[] arr, int low, int high){

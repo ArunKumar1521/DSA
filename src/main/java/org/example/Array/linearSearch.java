@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Array;
 
 public class linearSearch {
     public static void main(String[] args) {
